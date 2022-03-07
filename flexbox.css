@@ -1,0 +1,53 @@
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 
+    height:100vh
+    align-items: center; flex start, flex end, strech, (baseline -  elements equal)
+    */
+}
+
+.container{
+    display: flex;
+    /* flex-direction: column, column-reverse; mobile */
+    /* flex-direction: row; row-reverse web */
+    flex-direction: row; /*  web */
+    /* justify-content: space-around; */
+}
+
+.container1{
+    width: 600px;
+    flex-wrap: wrap; 
+    /* flex-wrap: wrap; wrap-reverse */
+    justify-content: center;
+}
+
+.element1{
+    order:0; /* for default element  */
+    /* order:....-2,-3,-1;  for inital element */
+    /* order:1,2,3.....;  for last element */
+}
+
+.container2{
+    border: 2px solid black;
+    display: flex;
+    width: 1000px;    
+}
+
+.container div .element1{
+    flex-grow: 1;
+}
+
+.container div .element2{
+    flex-grow: 2;
+}
+
+/* FlexBox is for single coloumn or row */
+/* GridBox is for multiple coloumn or row */
+
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+    grid-template-rows: 100px 200px;
+}
