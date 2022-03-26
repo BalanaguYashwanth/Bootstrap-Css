@@ -1,0 +1,157 @@
+.maindiv{
+    position: relative;
+    border: 1px solid black;
+    width: 230px;
+    height: 230px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.div1 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background: red;
+    transition: width 2s;
+    border-radius: 50%;
+}
+
+.div2{
+    border-radius:50px 50px 50px 50px;
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-iteration-count: 100;   
+}
+
+@keyframes example1 {
+    0%   {background-color:red; width: 75px;}
+    15%  {background-color:orange; width: 200px;}
+    25%  {background-color:yellow; width: 200px;}
+    35%  {background-color:yellow; width: 75px;}
+
+    50% {background-color:darkcyan; width: 75px;}
+    50% {background-color:darkcyan; width: 200px;}
+    65% {background-color:darkcyan; width: 200px;}
+    65% {background-color:darkcyan; width: 75px;}
+
+    68% {background-color:green; width: 75px;}
+    75% {background-color:green; width: 200px;}
+    85% {background-color:brown; width: 200px;}
+    100% {background-color:red; width: 75px;}
+}
+
+
+.div3 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background: green;
+    transition: width 2s;
+    border-radius: 50%;
+    bottom: 1px;
+}
+
+.div4{
+    border-radius:50px 50px 50px 50px;
+     animation-name: example2; 
+    animation-duration: 4s;
+    animation-iteration-count: 100;    
+}
+
+
+
+@keyframes example2 {
+    0%   {background-color:brown; height: 75px;}
+    15%  {background-color:brown; height: 230px;}
+    25%  {background-color:red; height: 230px;}
+    35%  {background-color:red; height: 75px;}
+
+    50% {background-color:red; height: 75px;}
+    50% {background-color:orange; height: 230px;}
+    65% {background-color:yellow; height: 230px;}
+    65% {background-color:yellow; height: 75px;}
+
+    68% {background-color:lightblue; height: 75px;}
+    75% {background-color:darkcyan; height: 230px;}
+    85% {background-color:green; height: 230px;}
+    100% {background-color:green; height: 75px;}
+}
+
+
+
+.div5 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background: yellow;
+    transition: width 2s;
+    border-radius: 50%;
+    right: 1px;
+}
+
+
+.div6{
+    border-radius:50px 50px 50px 50px;
+     animation-name: example3; 
+    animation-duration: 4s;
+    animation-iteration-count: 100;    
+}
+
+
+@keyframes example3 {
+    0%   {background-color:yellow; height: 75px;}
+    15%  {background-color:lightblue; height: 200px;}
+    25%  {background-color:darkcyan; height: 200px;}
+    35%  {background-color:darkcyan; height: 75px;}
+
+    50% {background-color:green; height: 75px;}
+    50% {background-color:green; height: 200px;}
+    65% {background-color:green; height: 200px;}
+    65% {background-color:green; height: 75px;}
+
+    68% {background-color:brown; height: 75px;}
+    75% {background-color:red; height: 200px;}
+    85% {background-color:orange; height: 200px;}
+    100% {background-color:yellow; height: 75px;}
+}
+
+
+.div7 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background: darkcyan;
+    transition: width 2s;
+    border-radius: 50%;
+    right: 1px;
+    bottom:0;
+    right:0;
+}
+
+
+
+.div8{
+    border-radius:50px 50px 50px 50px;
+    animation-name: example4; 
+    animation-duration: 4s;
+    animation-iteration-count: 100;    
+}
+
+
+@keyframes example4 {
+    0%   {background-color:cyan; width: 75px;}
+    15%  {background-color:darkcyan; width: 200px;}
+    25%  {background-color:green; width: 200px;}
+    35%  {background-color:green; width: 75px;}
+
+    50% {background-color:green; width: 75px;}
+    50% {background-color:brown; width: 200px;}
+    65% {background-color:red; width: 200px;}
+    65% {background-color:red; width: 75px;}
+
+    68% {background-color:red; width: 75px;}
+    75% {background-color:orange; width: 200px;}
+    85% {background-color:yellow; width: 200px;}
+    100% {background-color:darkcyan; width: 75px;}
+}
