@@ -1,1 +1,1 @@
-Animation file using pure HTML-CSS
+Animation file using pure HTML-CSS-JS
