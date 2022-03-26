@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function submit(){
+            let div1=document.querySelector(".div1")
+            div1.classList.add("div2")
+            let div3=document.querySelector(".div3")
+            div3.classList.add("div4")
+            let div5=document.querySelector(".div5")
+            div5.classList.add("div6")
+            let div7=document.querySelector(".div7")
+            div7.classList.add("div8")
+        }
+        function stop()
+        {
+            let div1=document.querySelector(".div1")
+            div1.classList.remove("div2")
+            let div3=document.querySelector(".div3")
+            div3.classList.remove("div4")
+            let div5=document.querySelector(".div5")
+            div5.classList.remove("div6")
+            let div7=document.querySelector(".div7")
+            div7.classList.remove("div8")
+        }
+    </script>
+</head>
+
+<body>
+    <div  class="maindiv">
+            <div class="div1">  
+            </div>
+        
+            <div class="div3">
+            </div>
+
+            <div class="div5">
+            </div>
+
+            <div class="div7">
+            </div>
+    </div>
+    <div class="button">
+        <button  onClick=submit()> Start </button>
+        <button onClick=stop()> Stop </button>
+    </div>
+
+    
+</body>
+</html>
+
+<!-- style="text-align: center; width: 100px; margin: 0 auto; position" -->
